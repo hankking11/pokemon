@@ -1,0 +1,111 @@
+name palletTown
+longer "You are in Pallet Town. Ash's mom can be seen moping around below. She's not mad, only disappointed. You can see the ocean to the south."
+shorter "Pallet Town"
+north viridianCity
+south cinnabarIsland
+east nothing
+west nothing
+logic palletLogic
+item pokedex
+;
+name viridianCity
+longer "You are in Viridian City. To the East is a mountain far to high to fly over. You will have to find a way through it."
+shorter "Viridian City"
+north nothing
+south palletTown
+east mountMoon
+west indigoPlateau
+logic basicLogic
+item potion
+;
+name indigoPlateau
+longer "You are at the Indigo Plateau, home of the best trainers in the world! Ash is battling fiercely."
+shorter "Indigo Plateau"
+north nothing
+south nothing
+east viridianCity
+west nothing
+logic indigoLogic
+item flashlight
+;
+name mountMoon
+longer "You are in the depths of the cave system inside of Mount Moon."
+shorter "Mount Moon"
+north nothing
+south nothing
+east ceruleanCity
+west viridianCity
+logic moonLogic
+item advil
+;
+name ceruleanCity
+longer "You are in Cerulean City, home of the water gym leader Misty."
+shorter "Cerulean City"
+north nothing
+south saffronCity
+east nothing
+west mountMoon
+logic basicLogic
+item masterball
+item gatorade
+;
+name saffronCity
+longer "You are in Saffron City, known for its casino and night life. No wonder the trail leads to here."
+shorter "Saffron City"
+north ceruleanCity
+south vermillionCity
+east lavenderTown
+west celadonCity
+logic basicLogic
+item pants
+;
+name celadonCity
+longer "You are in Celadon City. A beached Gyarados is flailing around, causing lots of damage and panic."
+shorter "Celadon City"
+north nothing
+south nothing
+east saffronCity
+west nothing
+logic basicLogic
+item Gyarados
+;
+name lavenderTown
+longer "You are in Lavender Town. It is a spooky place."
+shorter "Lavender Town"
+north nothing
+south nothing
+east nothing
+west saffronCity
+logic basicLogic
+item pokeflute
+;
+name vermillionCity
+longer "You are in Vermillion City. Theme music plays happily in the background."
+shorter "Vermillion City"
+north saffronCity
+south fuschiaCity
+east nothing
+west nothing
+logic basicLogic
+item bicycle
+;
+name fuschiaCity
+longer "You are in Fuschia City. At first glance you didn't see anything of note in the city. But something small and pitiful caught your eye. To the west you can also see the open ocean."
+shorter "Fuschia City"
+north vermillionCity
+south nothing
+east nothing
+west cinnabarIsland
+logic fuschiaLogic
+item dignity
+;
+name cinnabarIsland
+longer "You are on Cinnabar Island. It is a hot and tropical place."
+shorter "Cinnabar Island"
+north palletTown
+south nothing
+east fuschiaCity
+west nothing
+logic basicLogic
+item tuxedo-t-shirt
+;
